@@ -1,0 +1,22 @@
+{
+  "version": "0.0.1",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victormer/tutellusday-sc.git"
+  },
+  "scripts": {
+    "compile": "yarn hardhat compile",
+    "deploy-token": "yarn hardhat run scripts/deploy-token.js --network goerli",
+    "deploy-staking": "yarn hardhat run scripts/deploy-staking.js --network goerli",
+    "deploy-whitelist": "yarn hardhat run scripts/deploy-whitelist.js --network goerli"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@nomiclabs/hardhat-etherscan": "^3.1.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1",
+    "hardhat": "^2.12.0"
+  }
+}
