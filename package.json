@@ -8,7 +8,8 @@
   "scripts": {
     "compile": "yarn hardhat compile",
     "deploy-token": "yarn hardhat run scripts/deploy-token.js --network goerli",
-    "deploy-staking": "yarn hardhat run scripts/deploy-staking.js --network goerli"
+    "deploy-staking": "yarn hardhat run scripts/deploy-staking.js --network goerli",
+    "deploy-whitelist": "yarn hardhat run scripts/deploy-whitelist.js --network goerli"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.0",

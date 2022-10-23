@@ -10,9 +10,7 @@ module.exports = {
       goerli: {
         url: process.env.RPC_URL_GOERLI,
         gas: 'auto',
-        accounts: {
-          mnemonic: process.env.MNEMONIC
-        }
+        accounts: [process.env.PRIVATE_KEY]
       } 
     },
     solidity: {
